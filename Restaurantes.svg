@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="#00387E">
+
+  <!-- Plato exterior -->
+  <circle cx="100" cy="100" r="70" fill="#00387E"></circle>
+  <circle cx="100" cy="100" r="50" fill="white"></circle>
+  <circle cx="100" cy="100" r="40" fill="#00387E"></circle>
+
+  <!-- Tenedor -->
+  <rect x="11" y="60" width="6" height="90" rx="3" fill="#00387E"></rect>
+  <rect x="3" y="30" width="4" height="30" rx="2" fill="#00387E"></rect>
+  <rect x="12" y="30" width="4" height="30" rx="2" fill="#00387E"></rect>
+  <rect x="21" y="30" width="4" height="30" rx="2" fill="#00387E"></rect>
+  <rect x="3" y="58" width="22" height="4" rx="2" fill="#00387E"></rect>
+
+  <!-- Cuchillo -->
+  <rect x="178" y="30" width="10" height="120" rx="5" fill="#00387E"></rect>
+
+  <!-- Filo centrado (x = 183) y más ancho -->
+  <!-- Curva extendida: Q203 60 vs antes Q193 60 -->
+  <path d="M183 30 Q203 60 183 110 Z" fill="#00387E"></path>
+
+</svg>
