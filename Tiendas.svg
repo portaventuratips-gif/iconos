@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Marquesina -->
+  <rect x="16" y="32" width="96" height="16" fill="#00387e" stroke="#FFFFFF" stroke-width="1.5"></rect>
+  
+  <!-- Franjas de la marquesina (relieve) -->
+  <path d="M16 32 L24 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M24 32 L32 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M32 32 L40 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M40 32 L48 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M48 32 L56 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M56 32 L64 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M64 32 L72 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M72 32 L80 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M80 32 L88 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M88 32 L96 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M96 32 L104 48" stroke="#FFFFFF" stroke-width="2"></path>
+  <path d="M104 32 L112 48" stroke="#FFFFFF" stroke-width="2"></path>
+
+  <!-- Fachada -->
+  <rect x="16" y="48" width="96" height="64" fill="#00387e" stroke="#FFFFFF" stroke-width="1.5"></rect>
+
+  <!-- Puerta -->
+  <rect x="56" y="80" width="16" height="32" fill="#00387e" stroke="#FFFFFF" stroke-width="1"></rect>
+
+  <!-- Ventanas -->
+  <rect x="28" y="72" width="16" height="16" fill="#00387e" stroke="#FFFFFF" stroke-width="1"></rect>
+  <rect x="84" y="72" width="16" height="16" fill="#00387e" stroke="#FFFFFF" stroke-width="1"></rect>
+
+  <!-- Cartel lateral -->
+  <rect x="112" y="64" width="8" height="32" fill="#00387e" stroke="#FFFFFF" stroke-width="1"></rect>
+
+  <!-- Juguetes y gominolas sobre la ventana izquierda -->
+  <circle cx="32" cy="66" r="2" fill="#FFFFFF"></circle> <!-- Gominola redonda -->
+  <circle cx="40" cy="66" r="1.5" fill="#FFFFFF"></circle> <!-- Caramelo pequeño -->
+  <rect x="34" y="62" width="4" height="4" fill="#FFFFFF"></rect> <!-- Cubo juguete -->
+  <polygon points="36,60 34,64 38,64" fill="#FFFFFF"></polygon> <!-- Triángulo juguete -->
+  <path d="M32,60 Q36,56 40,60" fill="none" stroke="#FFFFFF" stroke-width="1"></path> <!-- Osito estilizado -->
+
+  <!-- Juguetes y gominolas sobre la ventana derecha -->
+  <circle cx="88" cy="66" r="2" fill="#FFFFFF"></circle> <!-- Gominola redonda -->
+  <circle cx="92" cy="64" r="1.5" fill="#FFFFFF"></circle> <!-- Caramelo pequeño -->
+  <rect x="90" y="62" width="4" height="4" fill="#FFFFFF"></rect> <!-- Cubo juguete -->
+  <polygon points="92,60 90,64 94,64" fill="#FFFFFF"></polygon> <!-- Triángulo juguete -->
+  <path d="M88,60 Q92,56 96,60" fill="none" stroke="#FFFFFF" stroke-width="1"></path> <!-- Osito estilizado -->
+</svg>
