@@ -1,0 +1,24 @@
+<svg width="500" height="500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#003A7E">
+    <!-- Cabeza completa -->
+    <path d="M256 80c-110 0-200 90-216 178l-20 7c-11 4-18 14-18 25v80c0 11 7 21 18 24l28 9c13 27 41 45 72 45h74l20-16h98l20 16h74c31 0 59-18 72-45l28-9c11-3 18-13 18-24v-80c0-11-7-21-18-25l-20-7C456 170 366 80 256 80z"></path>
+
+    <!-- Placa central superior -->
+    <path fill="#fff" d="M230 80l-12 88h76l-12-88h-52z"></path>
+
+    <!-- ARCO BLANCO (nuevo) -->
+    <path fill="#fff" d="M125 212c7-1 14-2 22-2h218c8 0 15 1 22 2 -32-52-81-96-131-108 -50 12-99 56-131 108z"></path>
+
+    <!-- Marco frontal blanco -->
+    <path d="M120 220h272c33 0 60 27 60 60v88c0 33-27 60-60 60h-63l-18-14c-5-4-11-6-18-6H209c-7 0-13 2-18 6l-18 14h-63c-33 0-60-27-60-60v-88c0-33 27-60 60-60z" fill="#fff"></path>
+
+    <!-- Panel azul (gafas) -->
+    <rect x="104" y="240" width="304" height="160" rx="50" fill="#003A7E"></rect>
+
+    <!-- Ojo izquierdo -->
+    <circle cx="148" cy="320" r="12" fill="#fff"></circle>
+
+    <!-- Ojo derecho -->
+    <circle cx="364" cy="320" r="24" fill="#fff"></circle>
+  </g>
+</svg>
