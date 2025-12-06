@@ -1,0 +1,31 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tarjeta de crédito -->
+  <rect x="40" y="100" width="320" height="200" rx="30" ry="30" fill="#00387e"></rect>
+  <!-- Banda blanca para contraste -->
+  <rect x="40" y="130" width="320" height="40" fill="#ffffff"></rect>
+  <!-- Chip -->
+  <rect x="80" y="190" width="60" height="50" rx="8" ry="8" fill="#ffffff"></rect>
+  <line x1="80" y1="215" x2="140" y2="215" stroke="#00387e" stroke-width="3"></line>
+  <line x1="110" y1="190" x2="110" y2="240" stroke="#00387e" stroke-width="3"></line>
+  <!-- Números -->
+  <rect x="160" y="190" width="180" height="20" fill="#ffffff" rx="5" ry="5"></rect>
+  <rect x="160" y="225" width="130" height="20" fill="#ffffff" rx="5" ry="5"></rect>
+  <!-- Texto BANK -->
+  <text x="60" y="280" font-family="Arial" font-size="22" fill="#ffffff" font-weight="bold">BANK</text>
+
+  <!-- Monedas en azul y blanco con € -->
+  <!-- Moneda grande -->
+  <circle cx="320" cy="70" r="50" fill="#00387e" stroke="#ffffff" stroke-width="5"></circle>
+  <circle cx="320" cy="70" r="38" fill="#ffffff"></circle>
+  <text x="320" y="82" font-family="Arial" font-size="36" fill="#00387e" font-weight="bold" text-anchor="middle">€</text>
+
+  <!-- Moneda mediana -->
+  <circle cx="260" cy="320" r="40" fill="#00387e" stroke="#ffffff" stroke-width="4"></circle>
+  <circle cx="260" cy="320" r="28" fill="#ffffff"></circle>
+  <text x="260" y="330" font-family="Arial" font-size="26" fill="#00387e" font-weight="bold" text-anchor="middle">€</text>
+
+  <!-- Moneda pequeña -->
+  <circle cx="340" cy="350" r="25" fill="#00387e" stroke="#ffffff" stroke-width="3"></circle>
+  <circle cx="340" cy="350" r="18" fill="#ffffff"></circle>
+  <text x="340" y="357" font-family="Arial" font-size="18" fill="#00387e" font-weight="bold" text-anchor="middle">€</text>
+</svg>
