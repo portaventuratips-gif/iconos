@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="64" height="80">
+  <!-- Cuerpo del fantasma con cabeza más abombada y picos abajo -->
+  <path d="M32 4 
+           C18 4, 8 20, 8 40 
+           v24 
+           C8 68, 12 72, 16 68 
+           L20 72 
+           L24 68 
+           L28 72 
+           L32 68 
+           L36 72 
+           L40 68 
+           L44 72 
+           L48 68 
+           L52 72 
+           C56 72, 60 68, 60 64 
+           V40 
+           C60 20, 46 4, 32 4 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2"></path>
+  
+  <!-- Ojos negros -->
+  <circle cx="22" cy="32" r="4" fill="#000000"></circle>
+  <circle cx="42" cy="32" r="4" fill="#000000"></circle>
+  
+  <!-- Boca abierta estilo asustando -->
+  <ellipse cx="32" cy="50" rx="6" ry="8" fill="#000000"></ellipse>
+  
+  <!-- Mano izquierda grande -->
+  <path d="M8 36 C2 34, 2 26, 8 24
+           M8 36 C4 30, 6 26, 8 24
+           M8 36 C6 34, 8 30, 8 24" stroke="#000000" stroke-width="2" fill="transparent"></path>
+  
+  <!-- Mano derecha grande -->
+  <path d="M56 36 C62 34, 62 26, 56 24
+           M56 36 C60 30, 58 26, 56 24
+           M56 36 C58 34, 56 30, 56 24" stroke="#000000" stroke-width="2" fill="transparent"></path>
+</svg>
