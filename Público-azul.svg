@@ -1,13 +1,13 @@
-<svg height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
   <!-- Persona izquierda -->
-  <circle cx="7" cy="8" r="3" fill="#0c356d"></circle>
-  <path d="M4 14c0-1.656 1.344-3 3-3s3 1.344 3 3v2H4v-2z" fill="#0c356d"></path>
+  <circle cx="6" cy="8" r="3" fill="#0c356d"></circle>
+  <path d="M3 14c0-1.656 1.344-3 3-3s3 1.344 3 3v2H3v-2z" fill="#0c356d"></path>
 
   <!-- Persona central -->
   <circle cx="12" cy="6" r="3" fill="#0c356d"></circle>
   <path d="M9 12c0-1.656 1.344-3 3-3s3 1.344 3 3v4H9v-4z" fill="#0c356d"></path>
 
   <!-- Persona derecha -->
-  <circle cx="17" cy="8" r="3" fill="#0c356d"></circle>
-  <path d="M14 14c0-1.656 1.344-3 3-3s3 1.344 3 3v2h-6v-2z" fill="#0c356d"></path>
+  <circle cx="18" cy="8" r="3" fill="#0c356d"></circle>
+  <path d="M15 14c0-1.656 1.344-3 3-3s3 1.344 3 3v2h-6v-2z" fill="#0c356d"></path>
 </svg>
