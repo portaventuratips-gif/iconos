@@ -1,12 +1,12 @@
-<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Barra izquierda (rellena, baja) -->
-  <rect x="20" y="120" width="50" height="60" fill="#003A7E"></rect>
+  <rect x="20" y="180" width="50" height="80" fill="#003A7E"></rect>
 
   <!-- Barra central (rellena, más alta) -->
-  <rect x="120" y="70" width="50" height="110" fill="#003A7E"></rect>
+  <rect x="110" y="120" width="50" height="140" fill="#003A7E"></rect>
 
   <!-- Barra derecha (solo borde, la más alta) -->
-  <rect x="220" y="10" width="50" height="170" fill="none" stroke="#003A7E" stroke-width="4"></rect>
+  <rect x="200" y="40" width="50" height="220" fill="none" stroke="#003A7E" stroke-width="4"></rect>
 
 </svg>
