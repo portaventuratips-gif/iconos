@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 512 512" fill="none" stroke="#003388" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Caja -->
+  <polygon points="64,160 256,64 448,160 256,256" />
+  <polygon points="64,160 64,352 256,448 256,256" />
+  <polygon points="448,160 448,352 256,448 256,256" />
+
+  <!-- Celo: doble línea inclinada -->
+  <line x1="150" y1="120" x2="365" y2="210" />
+  <line x1="170" y1="105" x2="385" y2="195" />
+
+  <!-- Chincheta más arriba en la tapa derecha inferior -->
+  <path d="M352 270c-20 0-36 16-36 36 0 30 36 70 36 70s36-40 36-70c0-20-16-36-36-36z" />
+  <circle cx="352" cy="305" r="14" />
+
+  <!-- Código de barras simple -->
+  <line x1="110" y1="300" x2="150" y2="300" />
+</svg>
