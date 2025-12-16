@@ -44,20 +44,11 @@
   </g>
 
   <!-- Rayo a la izquierda de la nube grande, más abajo y a la derecha -->
-  <polygon points="40,70 35,90 45,90 40,110" fill="red">
+  <polygon points="50,80 45,100 55,100 50,120" fill="red">
     <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
   </polygon>
 
   <!-- Líneas de viento más centradas respecto a la nube -->
   <g stroke="red" fill="none" stroke-width="2" transform="translate(100,150)">
-    <path d="M-20,0 C0,-5 20,5 40,0" >
-      <animateTransform attributeName="transform" type="translate" values="0,0;10,0;0,0" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-10,-10 C10,-15 30,-5 50,-10" >
-      <animateTransform attributeName="transform" type="translate" values="0,0;15,0;0,0" dur="2.5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-30,10 C-10,5 10,15 30,10" >
-      <animateTransform attributeName="transform" type="translate" values="0,0;12,0;0,0" dur="2.2s" repeatCount="indefinite"/>
-    </path>
-  </g>
-</svg>
+    <path d="M-20,0 C0,-5 20,5 40,0" />
+    <animateTransform attributeName=
