@@ -1,83 +1,57 @@
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fondo circular centrado -->
+  <!-- Fondo circular -->
   <circle cx="100" cy="100" r="95" stroke="red" stroke-width="4" fill="none"/>
 
-  <!-- Piernas -->
-  <line id="left-leg" x1="80" y1="140" x2="70" y2="180" stroke="red" stroke-width="4"/>
-  <line id="right-leg" x1="120" y1="140" x2="130" y2="180" stroke="red" stroke-width="4"/>
+  <!-- Piernas estáticas -->
+  <line x1="80" y1="140" x2="70" y2="180" stroke="red" stroke-width="4"/>
+  <line x1="120" y1="140" x2="130" y2="180" stroke="red" stroke-width="4"/>
 
   <!-- Línea horizontal a la altura de las piernas -->
   <line x1="70" y1="140" x2="130" y2="140" stroke="red" stroke-width="3"/>
 
-  <!-- Cuerpo y brazos en grupo para balanceo -->
+  <!-- Cuerpo -->
   <g id="torso-group">
-    <!-- Cuerpo (contorno) -->
     <path d="M80 140 L80 70 Q100 50 120 70 L120 140" stroke="red" stroke-width="3" fill="none"/>
+    
+    <!-- Brazos estáticos -->
+    <line x1="80" y1="80" x2="60" y2="120" stroke="red" stroke-width="4"/> <!-- mano izquierda -->
+    <line x1="120" y1="80" x2="140" y2="110" stroke="red" stroke-width="4"/> <!-- mano derecha -->
 
-    <!-- Brazos -->
-    <line id="left-arm" x1="80" y1="80" x2="60" y2="120" stroke="red" stroke-width="4"/>
-    <line id="right-arm" x1="120" y1="80" x2="140" y2="110" stroke="red" stroke-width="4"/>
-
-    <!-- Cabeza -->
-    <circle id="head" cx="100" cy="40" r="15" stroke="red" stroke-width="3" fill="none"/>
+    <!-- Cabeza ovalada y subida -->
+    <ellipse cx="100" cy="47" rx="12" ry="18" stroke="red" stroke-width="3" fill="none"/>
   </g>
 
-  <!-- Herramienta animada en la mano derecha -->
-  <line x1="140" y1="110" x2="155" y2="105" stroke="red" stroke-width="4">
-    <animateTransform 
-      attributeName="transform"
-      type="rotate"
-      values="0 140 110; 20 140 110; -20 140 110; 0 140 110"
-      dur="0.5s"
-      repeatCount="indefinite"/>
-  </line>
-
-  <!-- Maletín en la mano izquierda -->
+  <!-- Maletín en la mano izquierda (estático) -->
   <g transform="translate(55,120)">
     <rect x="0" y="0" width="20" height="12" stroke="red" stroke-width="2" fill="none"/>
     <line x1="4" y1="0" x2="4" y2="-6" stroke="red" stroke-width="2"/>
     <line x1="16" y1="0" x2="16" y2="-6" stroke="red" stroke-width="2"/>
   </g>
 
-  <!-- Animación de caminar (piernas y brazos) -->
-  <animateTransform 
-    xlink:href="#left-leg"
-    attributeName="transform" 
-    type="rotate" 
-    values="0 80 140;20 80 140;-20 80 140;0 80 140" 
-    dur="0.5s" 
-    repeatCount="indefinite"/>
+  <!-- Martillo en la mano derecha girando desde la mano -->
+  <g transform="translate(140,110)">
+    <g id="hammer">
+      <!-- Mango más largo -->
+      <rect x="-2" y="-35" width="4" height="35" fill="red"/>
+      <!-- Cabeza del martillo bajada más respecto al mango -->
+      <rect x="-6" y="-37.5" width="12" height="6" fill="red"/>
+      <!-- Animación de giro desde la mano (0,0) -->
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        values="0 0 0; 30 0 0; 0 0 0; -30 0 0; 0 0 0"
+                        dur="0.8s"
+                        repeatCount="indefinite"/>
+    </g>
+  </g>
 
-  <animateTransform 
-    xlink:href="#right-leg"
-    attributeName="transform" 
-    type="rotate" 
-    values="0 120 140;-20 120 140;20 120 140;0 120 140" 
-    dur="0.5s" 
-    repeatCount="indefinite"/>
-
-  <animateTransform 
-    xlink:href="#left-arm"
-    attributeName="transform" 
-    type="rotate" 
-    values="0 80 80;-30 80 80;30 80 80;0 80 80" 
-    dur="0.5s" 
-    repeatCount="indefinite"/>
-
-  <animateTransform 
-    xlink:href="#right-arm"
-    attributeName="transform" 
-    type="rotate" 
-    values="0 120 80;30 120 80;-30 120 80;0 120 80" 
-    dur="0.5s" 
-    repeatCount="indefinite"/>
-
-  <!-- Balanceo del torso y cabeza -->
-  <animateTransform 
-    xlink:href="#torso-group"
-    attributeName="transform"
-    type="translate"
-    values="0 0;0 -3;0 0;0 3;0 0"
-    dur="0.5s"
-    repeatCount="indefinite"/>
+  <!-- Ligero balanceo de cabeza -->
+  <g id="head-balance">
+    <ellipse cx="100" cy="47" rx="12" ry="18" stroke="red" stroke-width="3" fill="none">
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        values="0 100 47; 5 100 47; -5 100 47; 0 100 47"
+                        dur="1.5s"
+                        repeatCount="indefinite"/>
+    </ellipse>
+  </g>
 </svg>
