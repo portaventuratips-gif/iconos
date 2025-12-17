@@ -1,57 +1,80 @@
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fondo circular -->
-  <circle cx="100" cy="100" r="95" stroke="red" stroke-width="4" fill="none"/>
+  <!-- Aro rojo envolvente -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="red" stroke-width="4"/>
 
-  <!-- Piernas estáticas -->
-  <line x1="80" y1="140" x2="70" y2="180" stroke="red" stroke-width="4"/>
-  <line x1="120" y1="140" x2="130" y2="180" stroke="red" stroke-width="4"/>
-
-  <!-- Línea horizontal a la altura de las piernas -->
-  <line x1="70" y1="140" x2="130" y2="140" stroke="red" stroke-width="3"/>
-
-  <!-- Cuerpo -->
-  <g id="torso-group">
-    <path d="M80 140 L80 70 Q100 50 120 70 L120 140" stroke="red" stroke-width="3" fill="none"/>
-    
-    <!-- Brazos estáticos -->
-    <line x1="80" y1="80" x2="60" y2="120" stroke="red" stroke-width="4"/> <!-- mano izquierda -->
-    <line x1="120" y1="80" x2="140" y2="110" stroke="red" stroke-width="4"/> <!-- mano derecha -->
-
-    <!-- Cabeza ovalada y subida -->
-    <ellipse cx="100" cy="47" rx="12" ry="18" stroke="red" stroke-width="3" fill="none"/>
-  </g>
-
-  <!-- Maletín en la mano izquierda (estático) -->
-  <g transform="translate(55,120)">
-    <rect x="0" y="0" width="20" height="12" stroke="red" stroke-width="2" fill="none"/>
-    <line x1="4" y1="0" x2="4" y2="-6" stroke="red" stroke-width="2"/>
-    <line x1="16" y1="0" x2="16" y2="-6" stroke="red" stroke-width="2"/>
-  </g>
-
-  <!-- Martillo en la mano derecha girando desde la mano -->
-  <g transform="translate(140,110)">
-    <g id="hammer">
-      <!-- Mango más largo -->
-      <rect x="-2" y="-35" width="4" height="35" fill="red"/>
-      <!-- Cabeza del martillo bajada más respecto al mango -->
-      <rect x="-6" y="-37.5" width="12" height="6" fill="red"/>
-      <!-- Animación de giro desde la mano (0,0) -->
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        values="0 0 0; 30 0 0; 0 0 0; -30 0 0; 0 0 0"
-                        dur="0.8s"
-                        repeatCount="indefinite"/>
+  <!-- Engranaje grande -->
+  <g transform="translate(70,90)">
+    <circle cx="0" cy="0" r="30" fill="red"/>
+    <g>
+      <g>
+        <!-- Dientes -->
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(0)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(30)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(60)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(90)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(120)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(150)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(180)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(210)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(240)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(270)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(300)" />
+        <rect x="-5" y="-40" width="10" height="12" fill="red" transform="rotate(330)" />
+        <!-- Círculo interno blanco -->
+        <circle cx="0" cy="0" r="15" fill="white" stroke="white" stroke-width="2"/>
+        <!-- Animación de giro -->
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+      </g>
     </g>
   </g>
 
-  <!-- Ligero balanceo de cabeza -->
-  <g id="head-balance">
-    <ellipse cx="100" cy="47" rx="12" ry="18" stroke="red" stroke-width="3" fill="none">
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        values="0 100 47; 5 100 47; -5 100 47; 0 100 47"
-                        dur="1.5s"
-                        repeatCount="indefinite"/>
-    </ellipse>
+  <!-- Engranaje medio -->
+  <g transform="translate(140,90)">
+    <circle cx="0" cy="0" r="20" fill="red"/>
+    <g>
+      <g>
+        <!-- Dientes -->
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(0)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(30)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(60)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(90)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(120)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(150)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(180)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(210)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(240)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(270)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(300)" />
+        <rect x="-4" y="-27" width="8" height="9" fill="red" transform="rotate(330)" />
+        <!-- Círculo interno blanco -->
+        <circle cx="0" cy="0" r="10" fill="white" stroke="white" stroke-width="2"/>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Engranaje pequeño -->
+  <g transform="translate(120,140)">
+    <circle cx="0" cy="0" r="18" fill="red"/>
+    <g>
+      <g>
+        <!-- Dientes -->
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(0)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(30)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(60)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(90)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(120)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(150)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(180)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(210)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(240)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(270)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(300)" />
+        <rect x="-3.5" y="-25" width="7" height="8" fill="red" transform="rotate(330)" />
+        <!-- Círculo interno blanco -->
+        <circle cx="0" cy="0" r="8" fill="white" stroke="white" stroke-width="2"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
+      </g>
+    </g>
   </g>
 </svg>
