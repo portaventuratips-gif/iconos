@@ -17,7 +17,7 @@
       type="rotate"
       from="0 12 12"
       to="360 12 12"
-      dur="2s"
+      dur="24s"
       repeatCount="indefinite"/>
   </line>
 
@@ -31,7 +31,7 @@
       type="rotate"
       from="0 12 12"
       to="360 12 12"
-      dur="1s"
+      dur="2s"
       repeatCount="indefinite"/>
   </line>
 
