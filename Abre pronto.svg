@@ -1,41 +1,48 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none"
-     xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="150.000000pt"
+     height="152.000000pt"
+     viewBox="0 0 150 152"
+     preserveAspectRatio="xMidYMid meet">
 
-  <!-- Círculo exterior estático -->
-  <circle cx="100" cy="100" r="83.33"
+  <!-- Grupo escalado desde 24x24 a 150x150 -->
+  <g transform="translate(0 1) scale(6.25)">
+
+    <!-- Círculo exterior -->
+    <circle cx="12" cy="12" r="10"
+            stroke="#28a745"
+            stroke-width="2"
+            fill="none"/>
+
+    <!-- Aguja horaria -->
+    <line x1="12" y1="12" x2="12" y2="7"
           stroke="#28a745"
-          stroke-width="16.66"
-          fill="none"/>
+          stroke-width="2"
+          stroke-linecap="round">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 12 12"
+        to="360 12 12"
+        dur="24s"
+        repeatCount="indefinite"/>
+    </line>
 
-  <!-- Aguja corta (horaria) -->
-  <line x1="100" y1="100" x2="100" y2="58.33"
-        stroke="#28a745"
-        stroke-width="16.66"
-        stroke-linecap="round">
-    <animateTransform
-      attributeName="transform"
-      type="rotate"
-      from="0 100 100"
-      to="360 100 100"
-      dur="24s"
-      repeatCount="indefinite"/>
-  </line>
+    <!-- Aguja minutera -->
+    <line x1="12" y1="12" x2="12" y2="4"
+          stroke="#28a745"
+          stroke-width="1.5"
+          stroke-linecap="round">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 12 12"
+        to="360 12 12"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </line>
 
-  <!-- Aguja larga (minutera) -->
-  <line x1="100" y1="100" x2="100" y2="33.33"
-        stroke="#28a745"
-        stroke-width="12.5"
-        stroke-linecap="round">
-    <animateTransform
-      attributeName="transform"
-      type="rotate"
-      from="0 100 100"
-      to="360 100 100"
-      dur="2s"
-      repeatCount="indefinite"/>
-  </line>
+    <!-- Punto central -->
+    <circle cx="12" cy="12" r="1.5" fill="#28a745"/>
 
-  <!-- Punto central -->
-  <circle cx="100" cy="100" r="12.5" fill="#28a745"/>
-
+  </g>
 </svg>
