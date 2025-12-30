@@ -16,8 +16,9 @@
         stroke-dashoffset="160">
     <animate
       attributeName="stroke-dashoffset"
-      values="160;0;160"
-      dur="1.4s"
+      values="160;0;0;160"
+      keyTimes="0;0.25;0.75;1"
+      dur="3.6s"
       repeatCount="indefinite" />
   </line>
 
@@ -30,8 +31,9 @@
         stroke-dashoffset="160">
     <animate
       attributeName="stroke-dashoffset"
-      values="160;0;160"
-      dur="1.4s"
+      values="160;0;0;160"
+      keyTimes="0;0.25;0.75;1"
+      dur="3.6s"
       begin="0.2s"
       repeatCount="indefinite" />
   </line>
