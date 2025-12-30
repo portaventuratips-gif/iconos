@@ -7,31 +7,33 @@
           stroke="red"
           stroke-width="4"/>
 
-  <!-- Línea 1 de la X -->
+  <!-- Línea 1 -->
   <line x1="45" y1="45" x2="155" y2="155"
         stroke="red"
         stroke-width="7"
         stroke-linecap="round"
         stroke-dasharray="160"
         stroke-dashoffset="160">
-    <animate attributeName="stroke-dashoffset"
-             from="160" to="0"
-             dur="0.6s"
-             fill="freeze" />
+    <animate
+      attributeName="stroke-dashoffset"
+      values="160;0;160"
+      dur="1.4s"
+      repeatCount="indefinite" />
   </line>
 
-  <!-- Línea 2 de la X -->
+  <!-- Línea 2 -->
   <line x1="155" y1="45" x2="45" y2="155"
         stroke="red"
         stroke-width="7"
         stroke-linecap="round"
         stroke-dasharray="160"
         stroke-dashoffset="160">
-    <animate attributeName="stroke-dashoffset"
-             from="160" to="0"
-             dur="0.6s"
-             begin="0.6s"
-             fill="freeze" />
+    <animate
+      attributeName="stroke-dashoffset"
+      values="160;0;160"
+      dur="1.4s"
+      begin="0.2s"
+      repeatCount="indefinite" />
   </line>
 
 </svg>
