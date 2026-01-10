@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="0c356d" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Vaso -->
+  <rect x="20" y="15" width="24" height="34" />
+  
+  <!-- Líneas diagonales del vaso con inclinación menor (~15º), solo 2 -->
+  <line x1="22" y1="38" x2="42" y2="28" />
+  <line x1="22" y1="32" x2="42" y2="22" />
+
+  <!-- Pajita en L hacia la derecha, más hacia dentro -->
+  <polyline points="38,15 38,5 48,5" />
+</svg>
