@@ -1,36 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="64" height="80">
-  <!-- Cuerpo del fantasma con cabeza más abombada y picos abajo -->
-  <path d="M32 4 
-           C18 4, 8 20, 8 40 
-           v24 
-           C8 68, 12 72, 16 68 
-           L20 72 
-           L24 68 
-           L28 72 
-           L32 68 
-           L36 72 
-           L40 68 
-           L44 72 
-           L48 68 
-           L52 72 
-           C56 72, 60 68, 60 64 
-           V40 
-           C60 20, 46 4, 32 4 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2"></path>
-  
-  <!-- Ojos negros -->
-  <circle cx="22" cy="32" r="4" fill="#000000"></circle>
-  <circle cx="42" cy="32" r="4" fill="#000000"></circle>
-  
-  <!-- Boca abierta estilo asustando -->
-  <ellipse cx="32" cy="50" rx="6" ry="8" fill="#000000"></ellipse>
-  
-  <!-- Mano izquierda grande -->
-  <path d="M8 36 C2 34, 2 26, 8 24
-           M8 36 C4 30, 6 26, 8 24
-           M8 36 C6 34, 8 30, 8 24" stroke="#000000" stroke-width="2" fill="transparent"></path>
-  
-  <!-- Mano derecha grande -->
-  <path d="M56 36 C62 34, 62 26, 56 24
-           M56 36 C60 30, 58 26, 56 24
-           M56 36 C58 34, 56 30, 56 24" stroke="#000000" stroke-width="2" fill="transparent"></path>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 14 18"
+     data-testid="icon"
+     class="FeatureBox_icon__y8g0c"
+     fill="#ffffff">
+
+  <!-- Fantasma -->
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M7 1C3.9 1 1.5 3.4 1.5 6.4v8.8c0 .5.5.8.9.5l1.2-.9 1.2.9c.3.2.6.2.9 0l1.3-.9 1.3.9c.3.2.6.2.9 0l1.2-.9 1.2.9c.4.3.9 0 .9-.5V6.4C12.5 3.4 10.1 1 7 1Zm0 1.3c2.3 0 4.2 1.8 4.2 4.1v7.3l-.6-.5a.8.8 0 0 0-.9 0l-1.1.8-1.1-.8a.8.8 0 0 0-.9 0l-1.1.8-1.1-.8a.8.8 0 0 0-.9 0l-.6.5V6.4c0-2.3 1.9-4.1 4.2-4.1Z"/>
+
+  <!-- Ojo izquierdo -->
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M5 7.4c.5 0 .9-.4.9-.9S5.5 5.6 5 5.6s-.9.4-.9.9.4.9.9.9Z"/>
+
+  <!-- Ojo derecho -->
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M9 7.4c.5 0 .9-.4.9-.9S9.5 5.6 9 5.6s-.9.4-.9.9.4.9.9.9Z"/>
+
+  <!-- Brillos ojos -->
+  <circle cx="5.3" cy="6.2" r=".2" fill="black" opacity=".5"/>
+  <circle cx="9.3" cy="6.2" r=".2" fill="black" opacity=".5"/>
+
+  <!-- Boca -->
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M7 8.8c-1 0-1.8.6-1.8 1.4S6 11.6 7 11.6s1.8-.6 1.8-1.4S8 8.8 7 8.8Zm0 1c.4 0 .7.2.7.4s-.3.4-.7.4-.7-.2-.7-.4.3-.4.7-.4Z"/>
+
+  <!-- Sombras inferiores -->
+  <path opacity=".15"
+    d="M3 13.5l1 .7 1.2-.8 1.3.8 1.3-.8 1.2.8 1-.7v1.2l-1 .7-1.2-.8-1.3.8-1.3-.8-1.2.8-1-.7z"/>
+
 </svg>
