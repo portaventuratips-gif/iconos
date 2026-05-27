@@ -17,8 +17,8 @@
     d="M9 7.4c.5 0 .9-.4.9-.9S9.5 5.6 9 5.6s-.9.4-.9.9.4.9.9.9Z"/>
 
   <!-- Brillos ojos -->
-  <circle cx="5.3" cy="6.2" r=".2" fill="black" opacity=".5"/>
-  <circle cx="9.3" cy="6.2" r=".2" fill="black" opacity=".5"/>
+  <circle cx="5.3" cy="6.2" r=".2" fill="white"/>
+  <circle cx="9.3" cy="6.2" r=".2" fill="white"/>
 
   <!-- Boca -->
   <path fill-rule="evenodd" clip-rule="evenodd"
