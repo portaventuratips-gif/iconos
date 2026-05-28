@@ -1,13 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 64 64" fill="none">
-  <!-- Círculo externo -->
-  <circle cx="32" cy="32" r="30" stroke="#0c356d" stroke-width="6" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0c356d">
+  <!-- Cuerpo del reloj -->
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M12 2.5a9.5 9.5 0 1 0 0 19a9.5 9.5 0 0 0 0-19Zm0 1.8a7.7 7.7 0 1 1 0 15.4a7.7 7.7 0 0 1 0-15.4Z"/>
   
-  <!-- Manecilla de horas -->
-  <line x1="32" y1="32" x2="32" y2="16" stroke="#0c356d" stroke-width="5" stroke-linecap="round"/>
-  
-  <!-- Manecilla de minutos -->
-  <line x1="32" y1="32" x2="46" y2="32" stroke="#0c356d" stroke-width="4" stroke-linecap="round"/>
+  <!-- Manecillas -->
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M12 5.2c.4 0 .7.3.7.7v5.2h4.3a.7.7 0 1 1 0 1.4H12a.7.7 0 0 1-.7-.7V5.9c0-.4.3-.7.7-.7Z"/>
   
   <!-- Centro -->
-  <circle cx="32" cy="32" r="4" fill="#0c356d"/>
+  <circle cx="12" cy="12" r="1" />
 </svg>
