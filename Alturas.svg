@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0c356d">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="3 2 14 19"
+     fill="#0c356d">
+  
   <!-- Regla -->
   <path fill-rule="evenodd" clip-rule="evenodd"
     d="M6 3.5c.4 0 .7.3.7.7v15.6a.7.7 0 1 1-1.4 0V4.2c0-.4.3-.7.7-.7Z"/>
