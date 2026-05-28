@@ -14,17 +14,17 @@
            Z"
         fill="white"
         stroke="#0c356d"
-        stroke-width="5" />
+        stroke-width="20" />
 
   <!-- Pantalla -->
   <rect x="135" y="60" width="150" height="60" rx="12"
         fill="#e6eef5"
         stroke="#0c356d"
-        stroke-width="3" />
+        stroke-width="10" />
 
   <!-- Sticks -->
-  <circle cx="155" cy="155" r="25" fill="#e6eef5" stroke="#0c356d" stroke-width="4" />
-  <circle cx="265" cy="155" r="25" fill="#e6eef5" stroke="#0c356d" stroke-width="4" />
+  <circle cx="155" cy="155" r="25" fill="#e6eef5" stroke="#0c356d" stroke-width="8" />
+  <circle cx="265" cy="155" r="25" fill="#e6eef5" stroke="#0c356d" stroke-width="8" />
 
   <!-- Núcleos de sticks -->
   <circle cx="155" cy="155" r="12" fill="#0c356d" />
