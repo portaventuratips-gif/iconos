@@ -6,7 +6,8 @@
  preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,1133.000000) scale(0.100000,-0.100000)"
-fill="#0c356d" stroke="none">
+fill="#0c356d" stroke="#ffffff" stroke-width="150"
+stroke-linejoin="round" stroke-linecap="round">
 <path d="M8464 10388 c-25 -12 -55 -64 -114 -198 -84 -192 -133 -289 -149
 -295 -9 -4 -122 -13 -251 -21 -248 -15 -286 -23 -315 -68 -29 -44 -11 -69 144
 -209 80 -73 170 -152 199 -175 28 -24 52 -49 52 -55 0 -7 -34 -120 -76 -252
